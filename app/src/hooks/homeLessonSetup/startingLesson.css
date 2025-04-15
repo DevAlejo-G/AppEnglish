@@ -1,0 +1,31 @@
+.lesson-title,
+.lesson-title-practice {
+  margin-left: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limitar a dos líneas */
+  -webkit-box-orient: vertical;
+  word-break: break-word; /* Permitir el quiebre de palabras largas */
+}
+
+.lesson-title.small,
+.lesson-title-practice.small {
+  font-size: 18px;
+}
+
+.lesson-title.smaller,
+.lesson-title-practice.smaller {
+  font-size: 16px;
+}
+
+.lesson-description {
+  color: #666666;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 24px;
+}

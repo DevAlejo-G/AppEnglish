@@ -1,0 +1,13 @@
+/* Elimina márgenes y paddings globales */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+/* Asegura que el contenedor principal ocupe toda la pantalla */
+.App {
+  background-color: #ffffff;
+
+}

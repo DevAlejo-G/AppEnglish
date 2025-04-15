@@ -1,0 +1,73 @@
+/* Animación del texto tipo marquee */
+@keyframes scrollText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Contenedor principal del footer */
+.footer-container {
+  background: linear-gradient(to right, #1976d2, #0d47a1);
+  padding: 40px 30px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  color: #ffffff;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Texto con animación marquee */
+.marquee-text {
+  animation: scrollText 15s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(to right, #9e9e9e, #cfcfcf); /* Degradado gris suave */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Botones de íconos sociales */
+.social-icon-button {
+  color: #ffffff;
+  background: linear-gradient(45deg, #64b5f6, #2196f3); /* Colores suaves */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.social-icon-button:hover {
+  background: linear-gradient(45deg, #ffcc80, #ffab91); /* Nuevos colores en hover */
+  transform: scale(1.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Texto de contacto */
+.contact-text {
+  font-size: 1rem;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 5px 0;
+  margin-bottom: 10px; /* Añade margen inferior */
+  transition: color 0.3s ease;
+}
+
+.contact-text a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-text a:hover {
+  color: #b3e5fc; /* Color azul suave en hover */
+  text-decoration: underline;
+}
